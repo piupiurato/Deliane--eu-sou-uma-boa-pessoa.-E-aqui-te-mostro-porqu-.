@@ -1,0 +1,112 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Verdade Sobre Mim</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*flex-wrap: wrap; /* para quebrar linha se a tela for pequena */
+  gap: 1em;
+  margin: 1em auto;
+  width: 90%;
+}
+
+.galeria img {
+  height: 250px;            /* altura fixa igual */
+  border-radius: 20px;      /* cantos arredondados */
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);  /* sombra suave */
+  object-fit: cover;        /* para ajustar a imagem sem deformar */
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Seção 1: Carta Aberta -->
+    <section id="carta" class="secao">
+      <h1>Deliane, eu sou uma boa pessoa. E aqui te mostro porquê.</h1>
+      <p>Não sou perfeito. Mas sou verdadeiro.<br>
+      Tenho erros, falhas, momentos de silêncio…<br>
+      Mas em cada gesto, pensamento ou palavra,<br>
+      há uma coisa que não muda:<br>
+      <strong>eu só quero te fazer bem.</strong></p>
+    </section>
+
+    <!-- Seção 2: Meus Gestos de Amor -->
+    <section id="gestos" class="secao">
+      <h2>Meus Gestos de Amor</h2>
+      <ul>
+        <li>💌 Escrevi cartas com o coração.</li>
+        <li>🎁 Criei sites para te emocionar.</li>
+        <li>📞 Fico feliz quando te ouço sorrir.</li>
+        <li>🤲 Dou o que tenho, mesmo quando ninguém vê.</li>
+      </ul>
+    </section>
+
+    <!-- Seção 3: O Que Ninguém Vê -->
+    <section id="detalhes" class="secao">
+      <h2>O Que Ninguém Vê</h2>
+      <ul>
+        <li>Rezo por você antes de dormir.</li>
+        <li>Defendo seu nome quando não está presente.</li>
+        <li>Guardo suas mensagens como relíquias.</li>
+        <li>Desligo o mundo só pra te ouvir melhor.</li>
+      </ul>
+    </section>
+
+    <!-- Seção 4: Meus Valores -->
+    <section id="valores" class="secao">
+      <h2>Meus Valores</h2>
+      <table>
+        <tr><th>Valor</th><th>O que significa</th></tr>
+        <tr><td>Respeito</td><td>Nunca vou levantar a voz pra quem amo.</td></tr>
+        <tr><td>Lealdade</td><td>Meu amor é de uma só pessoa: você.</td></tr>
+        <tr><td>Cuidado</td><td>Ouço até o que você não diz.</td></tr>
+        <tr><td>Verdade</td><td>Prefiro ser honesto, mesmo que doa.</td></tr>
+      </table>
+    </section>
+
+    <!-- Seção 5: Provas de Carinho -->
+    <section id="provas" class="secao">
+      <h2>Provas de Carinho</h2>
+      <!-- Exemplo de imagem -->
+      <div class="galeria">
+        <img src="2.jpg" alt="Foto 2">
+        <img src="1.jpg" alt="Foto 1">
+        <img src="3.jpg" alt="Foto 3">
+      </div>
+    </section>
+
+    <!-- Seção 6: O que quero contigo -->
+    <section id="intencoes" class="secao">
+      <h2>O Que Quero Contigo</h2>
+      <ul>
+        <li>Te apoiar em todos os teus sonhos.</li>
+        <li>Te respeitar sempre.</li>
+        <li>Te fazer sorrir nos dias difíceis.</li>
+        <li>Te amar com paciência, presença e verdade.</li>
+      </ul>
+    </section>
+
+    <!-- Botão Final -->
+    <button id="botao-final">Confias em mim?</button>
+    <div id="final" class="secao hidden">
+      <p>Se teu coração disser sim,<br> eu prometo cuidar dele como o bem mais precioso do universo.</p>
+    </div>
+  </div>
+
+   <audio id="bg-music" loop>
+    <source src="musica.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
